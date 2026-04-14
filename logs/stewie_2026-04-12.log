@@ -1,0 +1,645 @@
+2026-04-12 12:13:08 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 12:13:09 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 12:13:09 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 12:13:09 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 12:38:48 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 12:38:48 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 12:38:48 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 12:38:49 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 12:38:50 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 12:38:53 | INFO     | __main__:main:206 - All modules initialized.
+2026-04-12 12:38:53 | INFO     | __main__:main:207 - Wake phrase: "hey stewie"
+2026-04-12 12:38:53 | INFO     | __main__:main:208 - Whisper model: base
+2026-04-12 12:38:53 | INFO     | __main__:main:209 - TTS voice: en-US-GuyNeural
+2026-04-12 12:38:53 | INFO     | __main__:main:210 - OpenAI model: gpt-4o
+2026-04-12 12:38:53 | INFO     | __main__:main:211 - Telegram: configured
+2026-04-12 12:38:53 | INFO     | __main__:main:224 - Learning engine: fresh start — no prior history
+2026-04-12 12:38:53 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 12:39:00 | INFO     | __main__:main:232 - Stewie is online. Awaiting your command, sir.
+2026-04-12 12:39:00 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:39:00 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:39:00 | INFO     | input.wake_word:start:83 - Wake word detector started — listening for activation.
+2026-04-12 12:39:01 | INFO     | input.telegram_bot:start:363 - Telegram bot starting (polling mode)...
+2026-04-12 12:39:06 | INFO     | input.telegram_bot:start:368 - Telegram bot is online and listening.
+2026-04-12 12:39:55 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 12:39:55 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 12:39:55 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 12:39:56 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 12:39:56 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 12:39:58 | INFO     | __main__:main:206 - All modules initialized.
+2026-04-12 12:39:58 | INFO     | __main__:main:207 - Wake phrase: "hey stewie"
+2026-04-12 12:39:58 | INFO     | __main__:main:208 - Whisper model: base
+2026-04-12 12:39:58 | INFO     | __main__:main:209 - TTS voice: en-US-GuyNeural
+2026-04-12 12:39:58 | INFO     | __main__:main:210 - OpenAI model: gpt-4o
+2026-04-12 12:39:58 | INFO     | __main__:main:211 - Telegram: configured
+2026-04-12 12:39:58 | INFO     | __main__:main:224 - Learning engine: fresh start — no prior history
+2026-04-12 12:39:58 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 12:40:05 | INFO     | __main__:main:232 - Stewie is online. Awaiting your command, sir.
+2026-04-12 12:40:05 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:40:05 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:40:05 | INFO     | input.wake_word:start:83 - Wake word detector started — listening for activation.
+2026-04-12 12:40:06 | INFO     | input.telegram_bot:start:363 - Telegram bot starting (polling mode)...
+2026-04-12 12:40:07 | INFO     | input.telegram_bot:start:368 - Telegram bot is online and listening.
+2026-04-12 12:40:10 | WARNING  | input.wake_word:_initialize_model:65 - Failed to load wake word model: Could not find pretrained model for model name 'hey stewie'. Using fallback keyword spotting.
+2026-04-12 12:42:18 | INFO     | input.telegram_bot:_handle_natural_language:326 - Telegram natural language: "How are you"
+2026-04-12 12:42:20 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=telegram]
+2026-04-12 12:42:20 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: natural_language with params={'raw_command': 'How are you'}
+2026-04-12 12:42:20 | WARNING  | core.orchestrator:_execute_plan:160 - No handler registered for action: 'natural_language'
+2026-04-12 12:42:45 | INFO     | input.telegram_bot:_handle_natural_language:326 - Telegram natural language: "Open Chrome"
+2026-04-12 12:42:46 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=telegram]
+2026-04-12 12:42:46 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: natural_language with params={'raw_command': 'Open Chrome'}
+2026-04-12 12:42:46 | WARNING  | core.orchestrator:_execute_plan:160 - No handler registered for action: 'natural_language'
+2026-04-12 12:44:44 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 12:44:44 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 12:44:44 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 12:44:44 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 12:44:44 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 12:44:45 | INFO     | __main__:main:206 - All modules initialized.
+2026-04-12 12:44:45 | INFO     | __main__:main:207 - Wake phrase: "hey jarvis"
+2026-04-12 12:44:45 | INFO     | __main__:main:208 - Whisper model: base
+2026-04-12 12:44:45 | INFO     | __main__:main:209 - TTS voice: en-US-GuyNeural
+2026-04-12 12:44:45 | INFO     | __main__:main:210 - OpenAI model: gpt-4o
+2026-04-12 12:44:45 | INFO     | __main__:main:211 - Telegram: configured
+2026-04-12 12:44:45 | INFO     | __main__:main:224 - Learning engine: fresh start — no prior history
+2026-04-12 12:44:45 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 12:44:52 | INFO     | __main__:main:232 - Stewie is online. Awaiting your command, sir.
+2026-04-12 12:44:52 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:44:52 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:44:52 | INFO     | input.wake_word:start:83 - Wake word detector started — listening for activation.
+2026-04-12 12:44:53 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 12:44:53 | WARNING  | input.wake_word:_initialize_model:65 - Failed to load wake word model: [ONNXRuntimeError] : 3 : NO_SUCHFILE : Load model from Z:\Learning\Antigravity\stewie\.venv\Lib\site-packages\openwakeword\resources/models/hey_jarvis_v0.1.onnx failed:Load model Z:\Learning\Antigravity\stewie\.venv\Lib\site-packages\openwakeword\resources/models/hey_jarvis_v0.1.onnx failed. File doesn't exist. Using fallback keyword spotting.
+2026-04-12 12:44:54 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 12:45:52 | INFO     | execution.screen_reader:capture_screen_to_file:62 - Screenshot saved to: C:\Users\shyam\AppData\Local\Temp\stewie__z9lylqh.png
+2026-04-12 12:47:33 | INFO     | input.telegram_bot:_handle_natural_language:326 - Telegram natural language: "What's my battery table"
+2026-04-12 12:47:34 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=telegram]
+2026-04-12 12:47:34 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: natural_language with params={'raw_command': "What's my battery table"}
+2026-04-12 12:47:34 | WARNING  | core.orchestrator:_execute_plan:160 - No handler registered for action: 'natural_language'
+2026-04-12 12:47:53 | INFO     | input.telegram_bot:_handle_natural_language:326 - Telegram natural language: "What's my battery level?"
+2026-04-12 12:47:54 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=telegram]
+2026-04-12 12:47:54 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: natural_language with params={'raw_command': "What's my battery level?"}
+2026-04-12 12:47:54 | WARNING  | core.orchestrator:_execute_plan:160 - No handler registered for action: 'natural_language'
+2026-04-12 12:48:16 | INFO     | input.telegram_bot:_handle_natural_language:326 - Telegram natural language: "Open Chrome"
+2026-04-12 12:48:17 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=telegram]
+2026-04-12 12:48:17 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: natural_language with params={'raw_command': 'Open Chrome'}
+2026-04-12 12:48:17 | WARNING  | core.orchestrator:_execute_plan:160 - No handler registered for action: 'natural_language'
+2026-04-12 12:48:37 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 12:48:37 | INFO     | input.wake_word:stop:155 - Wake word detector stopped.
+2026-04-12 12:48:54 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 12:48:54 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 12:48:54 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 12:48:54 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 12:48:55 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 12:48:55 | INFO     | __main__:main:206 - All modules initialized.
+2026-04-12 12:48:55 | INFO     | __main__:main:207 - Wake phrase: "hey jarvis"
+2026-04-12 12:48:55 | INFO     | __main__:main:208 - Whisper model: base
+2026-04-12 12:48:55 | INFO     | __main__:main:209 - TTS voice: en-US-GuyNeural
+2026-04-12 12:48:55 | INFO     | __main__:main:210 - OpenAI model: gpt-4o
+2026-04-12 12:48:55 | INFO     | __main__:main:211 - Telegram: configured
+2026-04-12 12:48:55 | INFO     | __main__:main:224 - Learning engine: fresh start — no prior history
+2026-04-12 12:48:55 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 12:49:02 | INFO     | __main__:main:232 - Stewie is online. Awaiting your command, sir.
+2026-04-12 12:49:02 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:49:02 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:49:02 | INFO     | input.wake_word:start:83 - Wake word detector started — listening for activation.
+2026-04-12 12:49:03 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 12:49:03 | INFO     | input.wake_word:_initialize_model:55 - Wake word model loaded for phrase: 'hey jarvis'
+2026-04-12 12:49:04 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 12:49:28 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.935)
+2026-04-12 12:49:28 | DEBUG    | core.event_bus:emit:59 - Emitting 'wake_detected' to 1 handler(s)
+2026-04-12 12:49:28 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 12:49:28 | INFO     | input.speech_recognition:listen_and_transcribe:71 - Listening for speech...
+2026-04-12 12:49:30 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.973)
+2026-04-12 12:49:31 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.803)
+2026-04-12 12:49:32 | DEBUG    | input.speech_recognition:_record:122 - Silence detected — stopping recording.
+2026-04-12 12:50:55 | INFO     | input.speech_recognition:_initialize_model:51 - Whisper model loaded (size=base, device=cpu)
+2026-04-12 12:50:55 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "How are you"
+2026-04-12 12:50:55 | INFO     | input.speech_recognition:listen_and_transcribe:82 - Transcription: "How are you?"
+2026-04-12 12:50:55 | INFO     | __main__:voice_loop:253 - Command: "How are you?"
+2026-04-12 12:50:55 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Certainly, sir."
+2026-04-12 12:50:59 | DEBUG    | nlu.intent_parser:parse:76 - Parsing: "How are you?"
+2026-04-12 12:51:03 | ERROR    | nlu.intent_parser:parse:122 - LLM intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-12 12:51:03 | WARNING  | nlu.fallback_parser:parse:179 - Fallback parser: no match for "How are you?"
+2026-04-12 12:51:03 | DEBUG    | __main__:voice_loop:260 - Parsed intent: {'intent': 'unrecognized', 'action': 'respond', 'params': {'message': "I'm operating in offline mode and couldn't interpret that command, sir. Could you try a simpler phrasing?"}, 'original_text': 'How are you?', 'source': 'voice', 'confidence': 0.1, 'parser': 'fallback'}
+2026-04-12 12:51:03 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=voice]
+2026-04-12 12:51:03 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: respond with params={'message': "I'm operating in offline mode and couldn't interpret that command, sir. Could you try a simpler phrasing?"}
+2026-04-12 12:51:03 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: respond
+2026-04-12 12:51:03 | DEBUG    | core.learning:record_command:214 - Recorded command #1: 'How are you?' → unrecognized (✅)
+2026-04-12 12:51:03 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Task complete, sir. Completed: respond"
+2026-04-12 12:51:10 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:51:10 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:51:33 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Open Chrome"
+2026-04-12 12:52:27 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 12:52:27 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 12:52:27 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 12:52:28 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 12:52:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 12:52:29 | INFO     | __main__:main:206 - All modules initialized.
+2026-04-12 12:52:29 | INFO     | __main__:main:207 - Wake phrase: "hey jarvis"
+2026-04-12 12:52:29 | INFO     | __main__:main:208 - Whisper model: base
+2026-04-12 12:52:29 | INFO     | __main__:main:209 - TTS voice: en-US-GuyNeural
+2026-04-12 12:52:29 | INFO     | __main__:main:210 - OpenAI model: gpt-4o
+2026-04-12 12:52:29 | INFO     | __main__:main:211 - Telegram: configured
+2026-04-12 12:52:29 | INFO     | __main__:main:218 - Learning engine: 1 past commands, 100% success rate, 0 corrections learned
+2026-04-12 12:52:29 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 12:52:35 | INFO     | __main__:main:232 - Stewie is online. Awaiting your command, sir.
+2026-04-12 12:52:35 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:52:35 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:52:35 | INFO     | input.wake_word:start:83 - Wake word detector started — listening for activation.
+2026-04-12 12:52:36 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 12:52:37 | INFO     | input.wake_word:_initialize_model:55 - Wake word model loaded for phrase: 'hey jarvis'
+2026-04-12 12:52:38 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 12:53:28 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.864)
+2026-04-12 12:53:28 | DEBUG    | core.event_bus:emit:59 - Emitting 'wake_detected' to 1 handler(s)
+2026-04-12 12:53:28 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 12:53:28 | INFO     | input.speech_recognition:listen_and_transcribe:71 - Listening for speech...
+2026-04-12 12:53:29 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.720)
+2026-04-12 12:53:30 | DEBUG    | input.speech_recognition:_record:122 - Silence detected — stopping recording.
+2026-04-12 12:53:30 | DEBUG    | output.tts_engine:speak:48 - Speaking: "I'm afraid my hearing isn't what it used to be. Could you say that again, sir?"
+2026-04-12 12:53:31 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.933)
+2026-04-12 12:53:37 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:53:37 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:53:39 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.980)
+2026-04-12 12:53:39 | DEBUG    | core.event_bus:emit:59 - Emitting 'wake_detected' to 1 handler(s)
+2026-04-12 12:53:39 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 12:53:39 | INFO     | input.speech_recognition:listen_and_transcribe:71 - Listening for speech...
+2026-04-12 12:53:40 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.998)
+2026-04-12 12:53:41 | DEBUG    | input.speech_recognition:_record:122 - Silence detected — stopping recording.
+2026-04-12 12:53:42 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.998)
+2026-04-12 12:53:42 | INFO     | input.speech_recognition:listen_and_transcribe:82 - Transcription: "Open Chrome."
+2026-04-12 12:53:42 | INFO     | __main__:voice_loop:253 - Command: "Open Chrome."
+2026-04-12 12:53:42 | DEBUG    | output.tts_engine:speak:48 - Speaking: "As you wish."
+2026-04-12 12:53:43 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.998)
+2026-04-12 12:53:45 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.998)
+2026-04-12 12:53:45 | DEBUG    | nlu.intent_parser:parse:76 - Parsing: "Open Chrome."
+2026-04-12 12:53:46 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.995)
+2026-04-12 12:53:48 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.877)
+2026-04-12 12:53:49 | ERROR    | nlu.intent_parser:parse:122 - LLM intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-12 12:53:49 | DEBUG    | nlu.fallback_parser:parse:164 - Fallback parser matched: '(?:open|launch|start)\s+(.+)' → open_application
+2026-04-12 12:53:49 | DEBUG    | __main__:voice_loop:260 - Parsed intent: {'intent': 'open_application', 'action': 'open_application', 'params': {'app_name': 'chrome.'}, 'original_text': 'Open Chrome.', 'source': 'voice', 'confidence': 0.7, 'parser': 'fallback'}
+2026-04-12 12:53:49 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=voice]
+2026-04-12 12:53:49 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: open_application with params={'app_name': 'chrome.'}
+2026-04-12 12:53:49 | INFO     | execution.app_manager:open_application:110 - App 'chrome.' not in registry — attempting system search.
+2026-04-12 12:53:49 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: open_application
+2026-04-12 12:53:49 | DEBUG    | core.learning:record_command:214 - Recorded command #2: 'Open Chrome.' → open_application (✅)
+2026-04-12 12:53:49 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Completed: open_application â€” will there be anything else, sir?"
+2026-04-12 12:53:56 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:53:56 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:54:14 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.934)
+2026-04-12 12:54:14 | DEBUG    | core.event_bus:emit:59 - Emitting 'wake_detected' to 1 handler(s)
+2026-04-12 12:54:14 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 12:54:14 | INFO     | input.speech_recognition:listen_and_transcribe:71 - Listening for speech...
+2026-04-12 12:54:15 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.812)
+2026-04-12 12:54:17 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.965)
+2026-04-12 12:54:17 | DEBUG    | input.speech_recognition:_record:122 - Silence detected — stopping recording.
+2026-04-12 12:54:18 | INFO     | input.speech_recognition:listen_and_transcribe:82 - Transcription: "Open Microsoft Edge."
+2026-04-12 12:54:18 | INFO     | __main__:voice_loop:253 - Command: "Open Microsoft Edge."
+2026-04-12 12:54:18 | DEBUG    | output.tts_engine:speak:48 - Speaking: "As you wish."
+2026-04-12 12:54:18 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.997)
+2026-04-12 12:54:20 | INFO     | input.wake_word:_process_with_model:114 - Wake word detected! (model=hey jarvis, score=0.989)
+2026-04-12 12:54:21 | DEBUG    | nlu.intent_parser:parse:76 - Parsing: "Open Microsoft Edge."
+2026-04-12 12:54:24 | ERROR    | nlu.intent_parser:parse:122 - LLM intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-12 12:54:24 | DEBUG    | nlu.fallback_parser:parse:164 - Fallback parser matched: '(?:open|launch|start)\s+(.+)' → open_application
+2026-04-12 12:54:24 | DEBUG    | __main__:voice_loop:260 - Parsed intent: {'intent': 'open_application', 'action': 'open_application', 'params': {'app_name': 'microsoft edge.'}, 'original_text': 'Open Microsoft Edge.', 'source': 'voice', 'confidence': 0.7, 'parser': 'fallback'}
+2026-04-12 12:54:24 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=voice]
+2026-04-12 12:54:24 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: open_application with params={'app_name': 'microsoft edge.'}
+2026-04-12 12:54:24 | INFO     | execution.app_manager:open_application:110 - App 'microsoft edge.' not in registry — attempting system search.
+2026-04-12 12:54:24 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: open_application
+2026-04-12 12:54:24 | DEBUG    | core.learning:record_command:214 - Recorded command #3: 'Open Microsoft Edge.' → open_application (✅)
+2026-04-12 12:54:24 | DEBUG    | output.tts_engine:speak:48 - Speaking: "All done. Completed: open_application"
+2026-04-12 12:54:31 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 12:54:31 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 12:58:49 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 12:58:50 | INFO     | input.wake_word:stop:155 - Wake word detector stopped.
+2026-04-12 13:01:38 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 13:01:38 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 13:01:38 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 13:01:39 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 13:01:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 13:01:40 | INFO     | __main__:main:206 - All modules initialized.
+2026-04-12 13:01:40 | INFO     | __main__:main:207 - Wake phrase: "hey stewie"
+2026-04-12 13:01:40 | INFO     | __main__:main:208 - Whisper model: base
+2026-04-12 13:01:40 | INFO     | __main__:main:209 - TTS voice: en-US-GuyNeural
+2026-04-12 13:01:40 | INFO     | __main__:main:210 - OpenAI model: gpt-4o
+2026-04-12 13:01:40 | INFO     | __main__:main:211 - Telegram: configured
+2026-04-12 13:01:40 | INFO     | __main__:main:218 - Learning engine: 3 past commands, 100% success rate, 0 corrections learned
+2026-04-12 13:01:40 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 13:01:46 | INFO     | __main__:main:232 - Stewie is online. Awaiting your command, sir.
+2026-04-12 13:01:46 | DEBUG    | __main__:voice_loop:240 - Waiting for wake word...
+2026-04-12 13:01:46 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 13:01:46 | INFO     | input.wake_word:start:84 - Wake word detector started — listening for activation.
+2026-04-12 13:01:47 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 13:01:47 | WARNING  | input.wake_word:_initialize_model:66 - Failed to load wake word model: Could not find pretrained model for model name 'hey stewie'. Using fallback keyword spotting.
+2026-04-12 13:01:48 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 13:02:16 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "What's my battery persentage"
+2026-04-12 13:03:06 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Open Chrome"
+2026-04-12 13:27:34 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 13:27:34 | INFO     | input.wake_word:stop:159 - Wake word detector stopped.
+2026-04-12 15:21:23 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 15:21:23 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 15:21:23 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 15:21:24 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 15:21:25 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 15:21:27 | INFO     | __main__:main:207 - All modules initialized.
+2026-04-12 15:21:27 | INFO     | __main__:main:208 - Wake phrase: "hey stewie"
+2026-04-12 15:21:27 | INFO     | __main__:main:209 - Whisper model: base
+2026-04-12 15:21:27 | INFO     | __main__:main:210 - TTS voice: en-US-GuyNeural
+2026-04-12 15:21:27 | INFO     | __main__:main:211 - OpenAI model: llama-3.3-70b-versatile
+2026-04-12 15:21:27 | INFO     | __main__:main:212 - Telegram: configured
+2026-04-12 15:21:27 | INFO     | __main__:main:219 - Learning engine: 3 past commands, 100% success rate, 0 corrections learned
+2026-04-12 15:21:27 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 15:21:37 | INFO     | __main__:main:233 - Stewie is online. Awaiting your command, sir.
+2026-04-12 15:21:37 | DEBUG    | __main__:voice_loop:241 - Waiting for wake word...
+2026-04-12 15:21:37 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 15:21:37 | INFO     | input.wake_word:start:84 - Wake word detector started — listening for activation.
+2026-04-12 15:21:37 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 15:21:40 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 15:21:43 | WARNING  | input.wake_word:_initialize_model:66 - Failed to load wake word model: Could not find pretrained model for model name 'hey stewie'. Using fallback keyword spotting.
+2026-04-12 15:22:12 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Hello"
+2026-04-12 15:24:18 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 15:24:18 | INFO     | input.wake_word:stop:159 - Wake word detector stopped.
+2026-04-12 15:24:27 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 15:24:27 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 15:24:27 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 15:24:28 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 15:24:28 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 15:24:29 | INFO     | __main__:main:208 - All modules initialized.
+2026-04-12 15:24:29 | INFO     | __main__:main:209 - Wake phrase: "hey stewie"
+2026-04-12 15:24:29 | INFO     | __main__:main:210 - Whisper model: base
+2026-04-12 15:24:29 | INFO     | __main__:main:211 - TTS voice: en-US-GuyNeural
+2026-04-12 15:24:29 | INFO     | __main__:main:212 - OpenAI model: llama-3.3-70b-versatile
+2026-04-12 15:24:29 | INFO     | __main__:main:213 - Telegram: configured
+2026-04-12 15:24:29 | INFO     | __main__:main:220 - Learning engine: 3 past commands, 100% success rate, 0 corrections learned
+2026-04-12 15:24:29 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 15:24:39 | INFO     | __main__:main:234 - Stewie is online. Awaiting your command, sir.
+2026-04-12 15:24:39 | DEBUG    | __main__:voice_loop:242 - Waiting for wake word...
+2026-04-12 15:24:39 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 15:24:39 | INFO     | input.wake_word:start:84 - Wake word detector started — listening for activation.
+2026-04-12 15:24:40 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 15:24:40 | WARNING  | input.wake_word:_initialize_model:66 - Failed to load wake word model: Could not find pretrained model for model name 'hey stewie'. Using fallback keyword spotting.
+2026-04-12 15:24:42 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 15:24:53 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Hey"
+2026-04-12 15:24:57 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "Hey"
+2026-04-12 15:25:01 | INFO     | nlu.intent_parser:_process_response:175 - NLU returned text response (no action): Hello, how can I assist you today?
+2026-04-12 15:25:16 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Open Chrome visit youtube.com and play a song"
+2026-04-12 15:25:18 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "Open Chrome visit youtube.com and play a song"
+2026-04-12 15:25:19 | INFO     | nlu.intent_parser:_process_response:166 - Parsed intent: multi_step_task (5 step(s))
+2026-04-12 15:25:19 | INFO     | core.orchestrator:execute:112 - Executing plan with 5 step(s) [source=voice]
+2026-04-12 15:25:19 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/5: open_application with params={'app_name': 'Chrome'}
+2026-04-12 15:25:19 | INFO     | execution.app_manager:open_application:96 - Opening 'Chrome' from: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-12 15:25:19 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: open_application
+2026-04-12 15:25:19 | INFO     | core.orchestrator:_execute_plan:148 - Step 2/5: type_text with params={'text': 'https://www.youtube.com/'}
+2026-04-12 15:25:20 | INFO     | execution.app_manager:type_text:217 - Typed 24 characters
+2026-04-12 15:25:20 | INFO     | core.orchestrator:_execute_plan:194 - Step 2 completed: type_text
+2026-04-12 15:25:20 | INFO     | core.orchestrator:_execute_plan:148 - Step 3/5: read_screen with params={}
+2026-04-12 15:25:20 | INFO     | execution.screen_reader:read_screen:108 - Reading screen content via OCR...
+2026-04-12 15:25:20 | ERROR    | execution.screen_reader:_ocr_image:92 - OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-12 15:25:20 | ERROR    | core.orchestrator:_execute_plan:198 - Step 3 failed: read_screen — tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-12 15:25:20 | WARNING  | core.orchestrator:_execute_plan:215 - Aborting remaining steps due to failure.
+2026-04-12 15:26:32 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Open Chrome and research about computer science"
+2026-04-12 15:26:34 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "Open Chrome and research about computer science"
+2026-04-12 15:26:35 | INFO     | nlu.intent_parser:_process_response:166 - Parsed intent: multi_step_task (2 step(s))
+2026-04-12 15:26:35 | INFO     | core.orchestrator:execute:112 - Executing plan with 2 step(s) [source=voice]
+2026-04-12 15:26:35 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/2: open_application with params={'app_name': 'Chrome'}
+2026-04-12 15:26:35 | INFO     | execution.app_manager:open_application:96 - Opening 'Chrome' from: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-12 15:26:35 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: open_application
+2026-04-12 15:26:35 | INFO     | core.orchestrator:_execute_plan:148 - Step 2/2: research_topic with params={'topic': 'computer science'}
+2026-04-12 15:26:35 | INFO     | execution.research_engine:research_topic:135 - Starting research on: 'computer science' (depth=detailed)
+2026-04-12 15:26:38 | INFO     | execution.research_engine:web_search:47 - Web search for 'computer science': 0 results
+2026-04-12 15:26:38 | INFO     | core.orchestrator:_execute_plan:194 - Step 2 completed: research_topic
+2026-04-12 15:26:52 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 15:26:52 | INFO     | input.wake_word:stop:159 - Wake word detector stopped.
+2026-04-12 15:27:02 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 15:27:02 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 15:27:02 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 15:27:03 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 15:27:03 | DEBUG    | execution.screen_reader:_setup_tesseract:49 - Tesseract located at: C:\Program Files\Tesseract-OCR\tesseract.exe
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 15:27:03 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 15:27:04 | INFO     | __main__:main:208 - All modules initialized.
+2026-04-12 15:27:04 | INFO     | __main__:main:209 - Wake phrase: "hey stewie"
+2026-04-12 15:27:04 | INFO     | __main__:main:210 - Whisper model: base
+2026-04-12 15:27:04 | INFO     | __main__:main:211 - TTS voice: en-US-GuyNeural
+2026-04-12 15:27:04 | INFO     | __main__:main:212 - OpenAI model: llama-3.3-70b-versatile
+2026-04-12 15:27:04 | INFO     | __main__:main:213 - Telegram: configured
+2026-04-12 15:27:04 | INFO     | __main__:main:220 - Learning engine: 3 past commands, 100% success rate, 0 corrections learned
+2026-04-12 15:27:04 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 15:27:12 | INFO     | __main__:main:234 - Stewie is online. Awaiting your command, sir.
+2026-04-12 15:27:12 | DEBUG    | __main__:voice_loop:242 - Waiting for wake word...
+2026-04-12 15:27:12 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 15:27:12 | INFO     | input.wake_word:start:84 - Wake word detector started — listening for activation.
+2026-04-12 15:27:12 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 15:27:13 | WARNING  | input.wake_word:_initialize_model:66 - Failed to load wake word model: Could not find pretrained model for model name 'hey stewie'. Using fallback keyword spotting.
+2026-04-12 15:27:15 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 15:27:53 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "What's by battery percentage"
+2026-04-12 15:27:55 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "What's by battery percentage"
+2026-04-12 15:27:56 | INFO     | nlu.intent_parser:_process_response:175 - NLU returned text response (no action): I am not able to execute this command since the functions provided are not sufficient.
+2026-04-12 15:28:19 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Put my volume on 50"
+2026-04-12 15:28:23 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "Put my volume on 50"
+2026-04-12 15:28:24 | INFO     | nlu.intent_parser:_process_response:166 - Parsed intent: set_volume (1 step(s))
+2026-04-12 15:28:24 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=voice]
+2026-04-12 15:28:24 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: set_volume with params={'level': 0.5}
+2026-04-12 15:28:24 | ERROR    | execution.system_control:set_volume:127 - Failed to set volume: 'AudioDevice' object has no attribute 'Activate'
+2026-04-12 15:28:24 | ERROR    | core.orchestrator:_execute_plan:198 - Step 1 failed: set_volume — 'AudioDevice' object has no attribute 'Activate'
+2026-04-12 15:28:24 | WARNING  | core.orchestrator:_execute_plan:215 - Aborting remaining steps due to failure.
+2026-04-12 15:28:40 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "What's weather today"
+2026-04-12 15:28:42 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "What's weather today"
+2026-04-12 15:28:44 | ERROR    | nlu.intent_parser:parse:123 - LLM intent parsing failed: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=web_search{"query": "weather today", "max_results": 5}</function>'}}
+2026-04-12 15:28:44 | WARNING  | nlu.fallback_parser:parse:179 - Fallback parser: no match for "What's weather today"
+2026-04-12 15:28:44 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=voice]
+2026-04-12 15:28:44 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: respond with params={'message': "I'm operating in offline mode and couldn't interpret that command, sir. Could you try a simpler phrasing?"}
+2026-04-12 15:28:44 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: respond
+2026-04-12 15:33:06 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Hey Jarvis open Chrome and play cut on YouTube"
+2026-04-12 15:33:08 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "Hey Jarvis open Chrome and play cut on YouTube"
+2026-04-12 15:33:10 | INFO     | nlu.intent_parser:_process_response:166 - Parsed intent: multi_step_task (2 step(s))
+2026-04-12 15:33:10 | INFO     | core.orchestrator:execute:112 - Executing plan with 2 step(s) [source=voice]
+2026-04-12 15:33:10 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/2: open_application with params={'app_name': 'Chrome'}
+2026-04-12 15:33:10 | INFO     | execution.app_manager:open_application:96 - Opening 'Chrome' from: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-12 15:33:10 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: open_application
+2026-04-12 15:33:10 | INFO     | core.orchestrator:_execute_plan:148 - Step 2/2: type_text with params={'text': 'https://www.youtube.com/results?search_query=cut'}
+2026-04-12 15:33:12 | INFO     | execution.app_manager:type_text:217 - Typed 48 characters
+2026-04-12 15:33:12 | INFO     | core.orchestrator:_execute_plan:194 - Step 2 completed: type_text
+2026-04-12 15:33:54 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Open WhatsApp and send Hii to Aniket"
+2026-04-12 15:33:56 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "Open WhatsApp and send Hii to Aniket"
+2026-04-12 15:33:58 | INFO     | nlu.intent_parser:_process_response:166 - Parsed intent: multi_step_task (2 step(s))
+2026-04-12 15:33:58 | INFO     | core.orchestrator:execute:112 - Executing plan with 2 step(s) [source=voice]
+2026-04-12 15:33:58 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/2: open_application with params={'app_name': 'WhatsApp'}
+2026-04-12 15:33:58 | INFO     | execution.app_manager:open_application:110 - App 'WhatsApp' not in registry — attempting system search.
+2026-04-12 15:33:58 | INFO     | core.orchestrator:_execute_plan:194 - Step 1 completed: open_application
+2026-04-12 15:33:58 | INFO     | core.orchestrator:_execute_plan:148 - Step 2/2: type_text with params={'text': 'Hii'}
+2026-04-12 15:33:59 | INFO     | execution.app_manager:type_text:217 - Typed 3 characters
+2026-04-12 15:33:59 | INFO     | core.orchestrator:_execute_plan:194 - Step 2 completed: type_text
+2026-04-12 15:35:07 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 15:35:07 | INFO     | input.wake_word:stop:159 - Wake word detector stopped.
+2026-04-12 15:43:38 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 15:43:38 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 15:43:38 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 15:43:39 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 15:43:39 | DEBUG    | execution.screen_reader:_setup_tesseract:49 - Tesseract located at: C:\Program Files\Tesseract-OCR\tesseract.exe
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'get_battery_level'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 15:43:39 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 15:43:41 | INFO     | __main__:main:209 - All modules initialized.
+2026-04-12 15:43:41 | INFO     | __main__:main:210 - Wake phrase: "hey jarvis"
+2026-04-12 15:43:41 | INFO     | __main__:main:211 - Whisper model: small
+2026-04-12 15:43:41 | INFO     | __main__:main:212 - TTS voice: en-US-GuyNeural
+2026-04-12 15:43:41 | INFO     | __main__:main:213 - OpenAI model: llama-3.3-70b-versatile
+2026-04-12 15:43:41 | INFO     | __main__:main:214 - Telegram: configured
+2026-04-12 15:43:41 | INFO     | __main__:main:221 - Learning engine: 3 past commands, 100% success rate, 0 corrections learned
+2026-04-12 15:43:41 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 15:43:49 | INFO     | __main__:main:235 - Stewie is online. Awaiting your command, sir.
+2026-04-12 15:43:49 | DEBUG    | __main__:voice_loop:243 - Waiting for wake word...
+2026-04-12 15:43:49 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 15:43:49 | INFO     | input.wake_word:start:84 - Wake word detector started — listening for activation.
+2026-04-12 15:43:49 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 15:43:50 | INFO     | input.wake_word:_initialize_model:56 - Wake word model loaded for phrase: 'hey jarvis'
+2026-04-12 15:43:53 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 15:44:01 | INFO     | input.wake_word:_process_with_model:118 - Wake word detected! (model=hey jarvis, score=0.919)
+2026-04-12 15:44:01 | DEBUG    | core.event_bus:emit:59 - Emitting 'wake_detected' to 1 handler(s)
+2026-04-12 15:44:01 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 15:44:01 | INFO     | input.speech_recognition:listen_and_transcribe:71 - Listening for speech...
+2026-04-12 15:44:05 | DEBUG    | input.speech_recognition:_record:122 - Silence detected — stopping recording.
+2026-04-12 15:47:13 | INFO     | __main__:main:82 - Initializing Stewie...
+2026-04-12 15:47:13 | INFO     | __main__:main:89 - Configuration loaded successfully.
+2026-04-12 15:47:13 | INFO     | core.learning:__init__:79 - Learning engine initialized (db=Z:\Learning\Antigravity\stewie\data\stewie_memory.db)
+2026-04-12 15:47:13 | DEBUG    | output.response_formatter:_load_config:95 - Loaded persona templates from config.
+2026-04-12 15:47:13 | DEBUG    | execution.screen_reader:_setup_tesseract:49 - Tesseract located at: C:\Program Files\Tesseract-OCR\tesseract.exe
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_brightness'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'adjust_brightness'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'set_volume'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'toggle_mute'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'shutdown_pc'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'restart_pc'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'cancel_shutdown'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'lock_screen'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'get_battery_level'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'open_application'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'close_application'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'type_text'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'read_screen'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'summarize_screen'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'web_search'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'research_topic'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'create_document'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'respond'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'place_order'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'self_report'
+2026-04-12 15:47:14 | DEBUG    | core.orchestrator:register:75 - Registered action handler: 'learning_stats'
+2026-04-12 15:47:15 | INFO     | __main__:main:209 - All modules initialized.
+2026-04-12 15:47:15 | INFO     | __main__:main:210 - Wake phrase: "hey jarvis"
+2026-04-12 15:47:15 | INFO     | __main__:main:211 - Whisper model: small
+2026-04-12 15:47:15 | INFO     | __main__:main:212 - TTS voice: en-US-GuyNeural
+2026-04-12 15:47:15 | INFO     | __main__:main:213 - OpenAI model: llama-3.3-70b-versatile
+2026-04-12 15:47:15 | INFO     | __main__:main:214 - Telegram: configured
+2026-04-12 15:47:15 | INFO     | __main__:main:221 - Learning engine: 3 past commands, 100% success rate, 0 corrections learned
+2026-04-12 15:47:15 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Systems are online. How may I assist you, sir?"
+2026-04-12 15:47:23 | INFO     | __main__:main:235 - Stewie is online. Awaiting your command, sir.
+2026-04-12 15:47:23 | DEBUG    | __main__:voice_loop:243 - Waiting for wake word...
+2026-04-12 15:47:23 | DEBUG    | core.event_bus:subscribe:38 - Subscribed _on_wake to 'wake_detected'
+2026-04-12 15:47:23 | INFO     | input.wake_word:start:84 - Wake word detector started — listening for activation.
+2026-04-12 15:47:24 | INFO     | input.telegram_bot:start:368 - Telegram bot starting (polling mode)...
+2026-04-12 15:47:24 | INFO     | input.wake_word:_initialize_model:56 - Wake word model loaded for phrase: 'hey jarvis'
+2026-04-12 15:47:29 | INFO     | input.telegram_bot:start:373 - Telegram bot is online and listening.
+2026-04-12 15:47:29 | INFO     | input.wake_word:_process_with_model:118 - Wake word detected! (model=hey jarvis, score=0.712)
+2026-04-12 15:47:29 | DEBUG    | core.event_bus:emit:59 - Emitting 'wake_detected' to 1 handler(s)
+2026-04-12 15:47:29 | DEBUG    | core.event_bus:unsubscribe:44 - Unsubscribed _on_wake from 'wake_detected'
+2026-04-12 15:47:29 | INFO     | input.speech_recognition:listen_and_transcribe:71 - Listening for speech...
+2026-04-12 15:47:31 | INFO     | input.telegram_bot:_handle_natural_language:325 - Telegram natural language: "Hello"
+2026-04-12 15:47:32 | DEBUG    | nlu.intent_parser:parse:77 - Parsing: "Hello"
+2026-04-12 15:47:32 | DEBUG    | input.speech_recognition:_record:122 - Silence detected — stopping recording.
+2026-04-12 15:50:00 | INFO     | input.wake_word:stop:159 - Wake word detector stopped.
+2026-04-12 15:50:01 | INFO     | nlu.intent_parser:_process_response:189 - Parsed intent: self_report (1 step(s))
+2026-04-12 15:50:01 | INFO     | core.orchestrator:execute:112 - Executing plan with 1 step(s) [source=voice]
+2026-04-12 15:50:01 | INFO     | core.orchestrator:_execute_plan:148 - Step 1/1: self_report with params=None
+2026-04-12 15:50:04 | INFO     | execution.screen_reader:capture_screen_to_file:102 - Screenshot saved to: C:\Users\shyam\AppData\Local\Temp\stewie_z2gf4gu0.png
+2026-04-12 15:50:13 | INFO     | input.telegram_bot:stop:387 - Telegram bot stopped.
+2026-04-12 15:50:13 | DEBUG    | core.learning:close:716 - Learning engine database closed.
+2026-04-12 15:50:13 | DEBUG    | output.tts_engine:speak:48 - Speaking: "Going into standby, sir. I'll be here if you need me."
+2026-04-12 15:50:31 | INFO     | __main__:main:335 - Stewie offline. Goodbye, sir.

@@ -1,0 +1,66 @@
+# ============================================
+# Stewie — Known Application Registry
+# ============================================
+# Maps friendly names to executable paths on Windows.
+# Use {username} as a placeholder — it will be resolved at runtime.
+
+apps:
+  chrome:
+    path: 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    aliases: [google chrome, browser]
+
+  firefox:
+    path: 'C:\Program Files\Mozilla Firefox\firefox.exe'
+    aliases: [mozilla firefox]
+
+  edge:
+    path: 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+    aliases: [microsoft edge]
+
+  word:
+    path: 'C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE'
+    aliases: [microsoft word, ms word, winword]
+
+  excel:
+    path: 'C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE'
+    aliases: [microsoft excel, ms excel]
+
+  powerpoint:
+    path: 'C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE'
+    aliases: [microsoft powerpoint, ms powerpoint, ppt]
+
+  notepad:
+    path: notepad.exe
+    aliases: [text editor]
+
+  calculator:
+    path: calc.exe
+    aliases: [calc]
+
+  file_explorer:
+    path: explorer.exe
+    aliases: [explorer, files, my computer]
+
+  vscode:
+    path: 'C:\Users\{username}\AppData\Local\Programs\Microsoft VS Code\Code.exe'
+    aliases: [visual studio code, vs code, code]
+
+  terminal:
+    path: wt.exe
+    aliases: [windows terminal, cmd, command prompt, powershell]
+
+  task_manager:
+    path: taskmgr.exe
+    aliases: [task manager]
+
+  settings:
+    path: 'ms-settings:'
+    aliases: [windows settings, system settings]
+
+  spotify:
+    path: 'C:\Users\{username}\AppData\Roaming\Spotify\Spotify.exe'
+    aliases: [music]
+
+  telegram:
+    path: 'C:\Users\{username}\AppData\Roaming\Telegram Desktop\Telegram.exe'
+    aliases: [telegram desktop]

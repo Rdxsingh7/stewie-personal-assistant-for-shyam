@@ -1,0 +1,50 @@
+# ============================================
+# STEWIE — Dependencies
+# ============================================
+
+# Core
+loguru>=0.7
+pydantic>=2.0
+pydantic-settings>=2.0
+pyyaml>=6.0
+
+# Voice — Wake Word
+openwakeword>=0.6
+
+# Voice — Speech Recognition
+faster-whisper>=1.0
+sounddevice>=0.4
+numpy>=1.24
+
+# Voice — Text-to-Speech
+edge-tts>=6.1
+pyttsx3>=2.90
+
+# NLU / LLM
+openai>=1.30
+
+# System Control
+screen-brightness-control>=0.23
+pycaw>=20230407
+psutil>=5.9
+pyautogui>=0.9
+comtypes>=1.3
+
+# Screen Reading
+mss>=9.0
+Pillow>=10.0
+pytesseract>=0.3
+
+# Research & Web
+requests>=2.31
+beautifulsoup4>=4.12
+duckduckgo-search>=5.0
+
+# Document Creation
+python-docx>=1.0
+
+# Telegram
+python-telegram-bot>=20.8
+
+# Audio
+soundfile>=0.12
